@@ -1,0 +1,30 @@
+.section_home-world
+	background-color: #f7f8fa
+	border-top: 1px solid #e6e6e6
+	padding-bottom: rem(100)
+	padding-top: rem(100)
+	.section__header
+		padding: rem(20)
+		+mymed(mscr)
+			padding: rem(30)
+		+mymed(lscr)
+			padding: rem(45)
+.world
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	.news-item
+		margin-bottom: rem(20)
+		margin-left: 0
+		margin-right: 0
+		+mymed(mscr)
+			width: 48%
+			margin-left: 4%
+			&:nth-child(2n+1)
+				margin-left: 0
+		+mymed(lscr)
+			width: 22%
+			&:nth-child(2n+1)
+				margin-left: 4%
+			&:first-child
+				margin-left: 0

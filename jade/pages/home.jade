@@ -1,0 +1,29 @@
+extends ../main
+
+block styles
+	<!-- build:css css/home.min.css -->
+	<!-- bower:css -->
+	link(rel="stylesheet", href="css/home.css")
+	<!-- endbower -->
+	<!-- endbuild -->
+block content
+	.wrapper
+		include ../header
+		main.main
+			.content
+				include ../home-firstscreen
+				include ../schedule-partners
+				include ../home-news
+				include ../home-players
+				include ../home-partners2
+				include ../home-videos
+				include ../home-world
+				include ../home-partners3
+				include ../home-cta
+		include ../footer
+block scripts
+	<!-- build:js js/homepage.min.js -->
+	<!-- bower:js -->
+	script(src="js/homepage.js")
+	<!-- endbower -->
+	<!-- endbuild -->

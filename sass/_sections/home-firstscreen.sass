@@ -1,0 +1,109 @@
+.slick-dotted.slick-slider
+	margin-bottom: 0
+.firstsreen__slide
+	padding: rem(20)
+	padding-bottom: rem(70)
+	background: url("../img/home-firstscreen.jpg") center center no-repeat
+	background-size: cover
+	+mymed(mscr)
+		padding: rem(40)
+	+mymed(lscr)
+		padding: rem(160)
+.firstscreen__header
+	+robotoMedium
+	color: #fff
+	padding-top: rem(40)
+	font-size: rem(28)
+	margin-bottom: rem(20)
+	max-width: rem(550)
+	+mymed(mscr)
+		font-size: rem(48)
+		margin-bottom: rem(30)
+	+mymed(lscr)
+		font-size: rem(64)
+		max-width: rem(704)
+		padding-top: 0
+.firstscreen__description
+	+robotoLight
+	color: #fff
+	font-size: rem(16)
+	margin-bottom: rem(10)
+	max-width: rem(530)
+	+mymed(mscr)
+		font-size: rem(20)
+		margin-bottom: rem(20)
+	+mymed(lscr)
+		font-size: rem(22)
+.firstscreen__description_bold
+	+robotoMedium
+	margin-bottom: rem(0)
+.button_firstscreen
+	+robotoLight
+	color: #fff
+	font-size: rem(14)
+	background-color: $blue
+	display: flex
+	align-items: center
+	justify-content: center
+	text-transform: uppercase
+	border-radius: rem(5)
+	width: rem(200)
+	height: rem(50)
+	border: none
+	margin-top: rem(40)
+	margin-bottom: rem(40)
+	transition: 0.4s
+	&:hover
+		cursor: pointer
+		background-color: darken($blue, 5%)
+	&:active
+		cursor: pointer
+		background-color: darken($blue, 10%)
+	+mymed(mscr)
+		width: rem(260)
+		height: rem(60)
+.button_video
+	+robotoMedium
+	color: #fff
+	font-size: rem(14)
+	display: flex
+	justify-content: center
+	align-items: center
+	text-transform: uppercase
+	border-radius: rem(5)
+	width: rem(180)
+	height: rem(45)
+	background-color: transparent
+	border: 2px solid #fff
+	margin-top: rem(20)
+	margin-bottom: rem(40)
+	transition: 0.4s
+	&:hover
+		cursor: pointer
+		background-color: #fff
+		color: $blue
+	&:active
+		cursor: pointer
+		background-color: #fff
+		color: darken($blue, 10%)
+	+mymed(mscr)
+		width: rem(220)
+		height: rem(55)
+.slick-dots
+	bottom: rem(50)
+	left: 0
+	li 
+		margin: 0 rem(20)
+	li button
+		width: rem(20)
+		height: rem(20)
+	li button:before
+		width: rem(20)
+		height: rem(20)
+		content: ''
+		background-color: #FFF
+		border-radius: 50%
+		opacity: 1
+	li.slick-active button:before
+		background-color: $blue
+		opacity: 1

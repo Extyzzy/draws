@@ -1,0 +1,22 @@
+
+.container
+	+mymed(mscr)
+		width: 768px
+	+mymed(lscr)
+		width: 90%
+		max-width: 1040px
+	+mymed(xscr)
+		width: 90%
+		max-width: 1620px
+
+.header-container,
+.footer-container,
+	+mymed(mscr)
+		margin: 0 auto
+		width: 90%
+	+mymed(xscr)
+		max-width: rem(1590)
+.container, 
+.header-container,
+.footer-container
+	margin: 0 auto

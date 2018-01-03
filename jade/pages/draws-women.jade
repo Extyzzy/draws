@@ -1,0 +1,764 @@
+extends ../main
+
+block styles
+	<!-- build:css css/draws.min.css -->
+	<!-- bower:css -->
+	link(rel="stylesheet", href="css/draws.css")
+	<!-- endbower -->
+	<!-- endbuild -->
+block content
+	.wrapper
+		include ../header
+		main.main
+				.main-draw__head
+					.main-draw__text-content
+						h1.main-draw__head-line Women's main Draw
+						p.main-draw__tournament 2018 J.P. Morgan Tournament of Champions
+					.main-draw__women-draw
+						a.main-draw__button(href='#', target='_blank') Men's Main Draw
+				.main-draw__graph
+					.round.round--odd
+						h2.round__title Round 1
+						p.round__time 18 - 19 Jan 2018
+						.r32
+							.panel
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r32
+							.panel
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r32
+							.panel
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r32
+							.panel
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r32
+							.panel
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r32
+							.panel
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r32
+							.panel
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r32
+							.panel
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+					.round.round--even
+						h2.round__title Round 2
+						p.round__time 20 - 21 Jan 2018
+						.r16
+							.panel.panel--r16
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel.panel--r16
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r16
+							.panel.panel--r16
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel.panel--r16
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r16
+							.panel.panel--r16
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel.panel--r16
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.r16
+							.panel.panel--r16
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel.panel--r16
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+					.round.round--odd
+						h2.round__title Quarter Final
+						p.round__time 22 - 23 Jan 2018
+						.q
+							.panel.panel--q
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel.panel--q
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+						.q
+							.panel.panel--q
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel.panel--q
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+					.round.round--even
+						h2.round__title Semi Final
+						p.round__time 24 Jan 2018
+						.s
+							.panel.panel--s
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+							.panel.panel--s
+								// First player
+								.player
+									p.player__name [1] Marwan EstShorbagy
+									p.player__country (FRA)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--second
+											| 2
+										p.game__match.game__match--third
+											| 3
+										p.game__match.game__match--fourth
+											| 4
+										p.game__match.game__match--fifth
+											| 5
+								// Second player
+								.player
+									p.player__name [WC] Mohamed Abouelghar
+									p.player__country (Egy)
+					.round.round--odd
+						h2.round__title Final
+						p.round__time 25 Jan 2018
+						.f
+							.panel.panel--f
+								// First player
+								.player
+									p.player__name [7] Terek Momen
+									p.player__country (EGY)
+								// Score
+								.game
+									p.game__time 18 Jan 2016, 7:30PM
+									.game__matches
+										p.game__match.game__match--first
+											| 1
+										p.game__match.game__match--first
+											| 2
+										p.game__match.game__match--first
+											| 3
+										p.game__match.game__match--first
+											| 4
+										p.game__match.game__match--first
+											| 5
+								// Second player
+								.player
+									p.player__name Mohamed Abouelghar
+									p.player__country (EGY)
+		include ../footer

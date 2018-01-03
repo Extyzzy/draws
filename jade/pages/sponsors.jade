@@ -1,0 +1,14 @@
+extends ../main
+
+block styles
+	<!-- build:css css/sponsors.min.css -->
+	<!-- bower:css -->
+	link(rel="stylesheet", href="css/sponsors.css")
+	<!-- endbower -->
+	<!-- endbuild -->
+block content
+	.wrapper
+		main.main
+			.content
+				include ../sponsors-content
+	

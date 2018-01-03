@@ -1,0 +1,16 @@
+extends ../main
+
+block styles
+	<!-- build:css css/gallery.min.css -->
+	<!-- bower:css -->
+	link(rel="stylesheet", href="css/gallery.css")
+	<!-- endbower -->
+	<!-- endbuild -->
+block content
+	.wrapper
+		include ../header
+		main.main
+			.content
+				include ../gallery-content
+		include ../footer
+block scripts

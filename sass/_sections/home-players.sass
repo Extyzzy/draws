@@ -1,0 +1,81 @@
+.section_home-players
+	padding-bottom: rem(70)
+	position: relative
+	background-color: #f7f8fa
+	border-top: rem(1) solid #e6e6e6
+	padding-top: rem(20)
+	+mymed(mscr)
+		padding-top: rem(40)
+		padding-bottom: rem(100)
+	+mymed(lscr)
+		padding-top: rem(70)
+		padding-bottom: rem(140)
+	.section__header
+		padding: rem(20)
+		+mymed(mscr)
+			padding: rem(30)
+		+mymed(lscr)
+			padding: rem(45)
+	.slick-dots
+		bottom: rem(-60)
+		li
+			margin-left: rem(5)
+			margin-right: rem(5)
+			+mymed(mscr)
+				margin-left: rem(20)
+				margin-right: rem(20)
+			button
+				width: rem(10)
+				height: rem(10)
+				+mymed(mscr)
+					width: rem(20)
+					height: rem(20)
+				&:before
+					width: rem(10)
+					height: rem(10)
+					border: 1px solid #d9d9d9
+					+mymed(mscr)
+						width: rem(20)
+						height: rem(20)
+
+		li.slick-active
+			button
+				&:before
+					border: 1px solid $blue
+.player
+	+mymed(mscr)
+		margin-right: rem(30)
+		margin-left: rem(30)
+	+mymed(lscr)
+		margin-right: rem(45)
+		margin-left: rem(45)
+.player__container
+	display: flex
+	flex-direction: column
+	align-items: center
+.player__image
+	border-radius: 50%
+	width: 90%
+	margin: 5%
+	margin-top: 10%
+	border: rem(1) solid #fff
+	box-shadow: 0 0 0 rem(10) $blue
+	margin-bottom: rem(40)
+	max-width: rem(300)
+.player__name
+	text-transform: uppercase
+	+robotoMedium
+	color: $black
+	font-size: rem(26)
+	margin-bottom: rem(25)
+	text-align: center
+.player__country
+	text-transform: uppercase
+	+roboto
+	color: $black
+	font-size: rem(22)
+	margin-bottom: rem(25)
+.player__rank
+	+robotoLight
+	color: $grey
+	font-size: rem(22)

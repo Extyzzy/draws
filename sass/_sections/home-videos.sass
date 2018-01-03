@@ -1,0 +1,40 @@
+.section_home-videos
+	padding-bottom: rem(40)
+	+mymed(mscr)
+		padding-bottom: rem(70)
+	+mymed(lscr)
+		padding-bottom: rem(100)
+		padding-top: rem(100)
+	.container
+		padding: 0
+	.section__header
+		padding: rem(20)
+		+mymed(mscr)
+			padding: rem(30)
+		+mymed(lscr)
+			padding: rem(45)
+.videos
+	display: flex
+	flex-direction: column
+	align-items: center
+	+mymed(lscr)
+		flex-direction: row
+.video
+	margin-bottom: rem(40)
+	iframe
+		margin-bottom: rem(20)
+	+mymed(lscr)
+		margin-bottom: 0
+		width: 30%
+		margin-left: 5%
+		&:first-child
+			margin-left: 0
+.video__description 
+	color: $black
+	+roboto
+	font-size: rem(14)
+	padding: rem(10)
+	+mymed(mscr)
+		font-size: rem(16)
+	+mymed(lscr)
+		font-size: rem(18)

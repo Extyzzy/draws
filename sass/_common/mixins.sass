@@ -1,0 +1,30 @@
+$medium: 768px
+$large: 1024px
+$xlarge: 1200px
+
+=mymed($media) 
+  @if $media == mscr 
+    @media only screen and (min-width: $medium)
+    	@content 
+  
+  @else if $media == lscr 
+    @media only screen and (min-width: $large)
+    	@content 
+  
+  @else if $media == xscr 
+    @media only screen and (min-width: $xlarge)
+    	@content
+
+
+=MainFontB()
+	font-family: MainFont, Helvetica, sans-serif
+	font-weight: bold
+=SecondFontL()
+	font-family: SecondFont, Helvetica, sans-serif
+	font-weight: 300
+=MainFont()
+	font-family: MainFont, Helvetica, sans-serif
+=ptsans()
+	font-family: pt_sans, Helvetica, sans-serif
+=font_404()
+  font-family: anodyne, Helvetica, sans-serif

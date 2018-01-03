@@ -1,0 +1,103 @@
+.section__header-block
+	padding: rem(20)
+	+mymed(mscr)
+		padding: 4vw 7.8125vw
+.section__header
+	+robotoMedium
+	color: $blue
+	font-size: rem(28)
+	margin-bottom: rem(10)
+	+mymed(lscr)
+		font-size: rem(30)
+		margin-bottom: rem(20)
+	+mymed(xscr)
+		font-size: 3.3vw
+		margin-bottom: rem(30)
+.section__description
+	color: $black
+	font-size: rem(14)
+	+mymed(mscr)
+		font-size: rem(18)
+	+mymed(lscr)
+		font-size: rem(22)
+.schedule__day
+	display: flex
+	flex-direction: column
+	+mymed(mscr)
+		width: 100%
+		flex-direction: row
+		border-bottom: 1px solid #e6e6e6
+.schedule__day__date
+	background-color: #01477a
+	color: #fff
+	+robotoMedium
+	font-size: rem(20)
+	padding: rem(15)
+	&:last-child
+		display: none
+	+mymed(mscr)
+		width: 7.8125vw
+		font-size: 1.875vw
+		display: flex
+		align-items: center
+		justify-content: center
+		text-align: center
+		&:last-child
+			display: flex
+.schedule__day__date_red 
+	background-color: #800000
+.schedule__day__events
+	display: flex
+	flex-direction: column
+	background-color: #f0f1f2
+	+mymed(mscr)
+		flex-grow: 1
+		flex-direction: row
+		justify-content: flex-end
+.schedule__day__event
+	display: flex
+	flex-direction: column
+	min-height: rem(180)
+	width: 100%
+	align-items: center
+	justify-content: flex-start
+	padding: rem(20)
+	background-color: #FFF
+	&:nth-child(2n)
+		background-color: #f8f8f9
+	+mymed(mscr)
+		min-height: 13vw
+		padding: 2.6vw
+		width: 25%
+.schedule__day__event__time
+	font-size: rem(18)
+	+robotoLight
+	color: $grey
+	margin-bottom: rem(10)
+	+mymed(mscr)
+		font-size: 0.9375vw
+		margin-bottom: 0.5vw
+.schedule__day__event__session
+	color: $black
+	+robotoMedium
+	font-size: rem(26)
+	margin-bottom: rem(10)
+	+mymed(mscr)
+		font-size: 1.35vw
+		margin-bottom: 0.5vw
+.schedule__day__event__round 
+	color: $blue
+	font-size: rem(20)
+	+robotoMedium
+	text-transform: uppercase
+	span
+		vertical-align: super
+		font-size: rem(10)
+	+mymed(mscr)
+		font-size: 1.05vw
+		span
+			font-size: 0.5vw
+.schedule__day
+	&:last-child
+		.schedule__day__event
+			margin-right: 12.5%

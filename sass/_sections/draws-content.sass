@@ -1,0 +1,220 @@
+.main-draw
+  padding: 0 0 150px
+
+.main-draw__head
+  align-items: center
+  box-sizing: border-box
+  display: flex
+  justify-content: space-between
+  margin: 0 165px
+  min-width: 1019px
+  padding: 110px 10px 52px
+
+.main-draw__head-line
+  color: #009ee2
+  font-size: 64px
+  margin: 0 0 18px
+  text-transform: capitalize
+
+.main-draw__tournament
+  color: #3d4452
+  font-size: 36px
+  font-weight: 700
+
+.main-draw__button
+  background-color: #ffffff
+  border: 2px solid #3d4452
+  border-radius: 5px
+  color: #3d4452
+  display: inline-block
+  font-size: 16px
+  font-weight: 600
+  height: 52px
+  line-height: 52px
+  margin: 5px 0 0 50px
+  text-align: center
+  text-decoration: none
+  text-transform: uppercase
+  transition: background-color 0.5s, color 0.5s
+  width: 232px
+  &:active, &:focus, &:hover
+    background-color: #3d4452
+    color: #ffffff
+    cursor: pointer
+
+.main-draw__graph
+  display: flex
+  margin: 0 165px
+  min-width: 1019px
+
+@media screen and (max-width: 1349px) and (min-width: 700px)
+  .main-draw__head, .main-draw__graph
+    margin: 0 auto
+    max-width: 1019px
+
+/* --- Accolade ---
+
+.r32, .r16, .q, .s, .f
+  position: relative
+
+.r32:before, .r16:before, .q:before, .s:before
+  border: 1px solid #009ee2
+  border-left: none
+  border-radius: 0 5px 5px 0
+  content: ""
+  display: block
+  left: 100%
+  height: 138px
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+  width: 9px
+
+.r16:before
+  height: 278px
+
+.q:before
+  height: 556px
+
+.s:before
+  height: 1110px
+
+/* --- Round ---
+
+.round
+  box-sizing: border-box
+  padding: 15px 10px
+  max-width: 320px
+  min-width: 193px
+
+.round--odd
+  background-color: #f7f8fa
+
+.round--even
+  background-color: #ffffff
+
+.round__title
+  background-color: #da56c3
+  border-radius: 5px
+  color: #ffffff
+  height: 40px
+  font-size: 19px
+  font-weight: 400
+  line-height: 40px
+  margin: 0 0 23px
+  text-align: center
+  text-transform: uppercase
+  max-width: 300px
+  min-width: 183px
+
+.round__time
+  font-style: italic
+  padding: 0 0 23px
+  text-align: center
+
+/* --- Panel ---
+
+.panel
+  background-color: #ffffff
+  border-radius: 5px
+  box-sizing: border-box
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.45)
+  display: flex
+  flex-direction: column
+  height: 124px
+  justify-content: space-between
+  margin: 0 0 15px
+  max-width: 300px
+  min-width: 183px
+
+.panel--r16, .panel--q, .panel--s, .panel--f
+  position: relative
+
+.panel--r16
+  margin: 70px 0 154px
+
+.panel--q
+  margin: 209px 0 432px
+
+.panel--s
+  margin: 487px 0 987px
+
+.panel--f
+  margin: 1042px 0 0
+
+.r32:last-child .panel:last-child, .r16:last-child .panel--r16:last-child, .q:last-child .panel--q:last-child, .s:last-child .panel--s:last-child, .f:last-child .panel--f:last-child
+  margin-bottom: 0
+
+/* --- Pannel Tail ---
+
+.panel--r16:before, .panel--q:before, .panel--s:before, .panel--f:before
+  background-color: #009ee2
+  content: ""
+  display: block
+  left: -10px
+  height: 1px
+  position: absolute
+  top: 50%
+  transform: translateY(-50%), translateZ(0)
+  width: 10px
+
+/* --- Player ---
+
+.player
+  align-items: center
+  box-sizing: border-box
+  display: flex
+  flex-wrap: wrap
+  height: 50px
+  margin: 0 0 0 10px
+  padding: 12px 0
+
+.player__name
+  font-size: 12px
+  font-weight: 700
+  margin: 0 5px 0 0
+
+.player__country
+  align-items: flex-end
+  color: #bfbfbf
+  display: flex
+  font-size: 10px
+  font-weight: 700
+  height: 12px
+  text-transform: uppercase
+  width: 165px
+
+/* --- Information ---
+
+.game
+  align-content: center
+  display: flex
+  justify-content: space-between
+
+.game__time
+  align-items: center
+  background-color: #9e9e9e
+  color: #ffffff
+  display: flex
+  flex: 1 0 0
+  font-size: 11px
+  height: 26px
+  margin: 0 1px 0 0
+  padding: 0 0 0 10px
+
+.game__matches
+  align-items: center
+  display: flex
+  justify-content: flex-end
+
+.game__match
+  align-items: center
+  background-color: #bebebe
+  color: #ffffff
+  display: flex
+  font-size: 11px
+  justify-content: space-around
+  height: 26px
+  margin: 0 1px 0 0
+  max-width: 23px
+  min-width: 15px

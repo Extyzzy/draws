@@ -1,0 +1,72 @@
+.section_home-cta
+	background: url('../img/home-cta.jpg') right center no-repeat
+	background-size: cover
+.cta
+	padding: rem(20)
+	width: 100%
+	display: flex
+	flex-direction: column
+	align-items: center
+	+mymed(lscr)
+		position: relative
+		z-index: 2
+		margin-left: auto
+		width: 35vw
+		align-items: flex-end
+		padding: 0
+		padding-top: 7.2vw
+		padding-bottom: 8.3vw
+.cta__header
+	color: #fff
+	+robotoMedium
+	font-size: rem(28)
+	margin-bottom: rem(10)
+	text-align: center
+	+mymed(lscr)
+		text-align: right
+		font-size: rem(30)
+	+mymed(xscr)
+		font-size: 3.3vw
+.cta__description
+	color: #fff
+	font-size: rem(18)
+	text-transform: uppercase
+	margin-bottom: rem(30)
+	+mymed(lscr)
+		font-size: 1.8vw
+.button_cta
+	color: #fff
+	background-color: #009ee2
+	border-radius: rem(5)
+	display: flex
+	text-transform: uppercase
+	+roboto
+	font-size: rem(14)
+	align-items: center
+	justify-content: center
+	border: none
+	width: rem(200)
+	height: rem(50)
+	transition: 0.4s
+	&:hover
+		cursor: pointer
+		background-color: darken(#009ee2, 5%)
+	&:active
+		background-color: darken(#009ee2, 10%)
+	+mymed(mscr)
+		margin-bottom: rem(30)
+.section_partners-middle, .section_partners-bottom, .section_partners-top
+	background-color: #ebebeb
+	.partners
+		padding-top: rem(20)
+		padding-bottom: rem(20)
+		+mymed(mscr)
+			align-items: center
+		+mymed(lscr)
+			min-height: rem(160)
+.partner__image
+	max-width: 100%
+.section_partners-bottom
+	.partner
+		+mymed(xscr)
+			width: auto

@@ -1,0 +1,120 @@
+.section_sponsors
+	padding-top: rem(40)
+	+mymed(mscr)
+		padding-top: rem(60)
+	+mymed(lscr)
+		padding-top: rem(100)
+.section__header
+	+robotoMedium
+	color: $blue
+	font-size: rem(28)
+	margin-bottom: rem(30)
+	text-align: center
+	+mymed(lscr)
+		font-size: rem(30)
+		margin-bottom: rem(40)
+	+mymed(xscr)
+		font-size: rem(58)
+		margin-bottom: rem(60)
+
+.container
+	padding: 0
+.sponsors-block
+	display: flex
+	flex-direction: column
+	align-items: center
+.sponsors
+	display: flex
+	flex-direction: column
+	align-items: center
+	width: 100%
+	padding-left: rem(15)
+	padding-right: rem(15)
+.sponsor__header
+	text-transform: uppercase
+	text-align: center
+	+robotoMedium
+	font-size: rem(16)
+	margin-bottom: rem(20)
+	width: 100%
+	+mymed(mscr)
+		margin-bottom: rem(40)
+		font-size: rem(18)
+	+mymed(lscr)
+		font-size: rem(20)
+		margin-bottom: rem(60)
+.sponsors__block
+	display: flex
+	flex-direction: column
+	margin-bottom: rem(30)
+	+mymed(mscr)
+		margin-bottom: rem(50)
+		flex-direction: row
+		flex-wrap: wrap
+		align-items: flex-end
+		justify-content: center
+		width: 100%
+	+mymed(lscr)
+		margin-bottom: rem(100)
+	+mymed(xscr)
+		justify-content: space-between
+	&:first-child
+		.sponsor__header
+			margin-bottom: rem(30)
+			+mymed(mscr)
+				margin-bottom: rem(50)
+			+mymed(lscr)
+				margin-bottom: rem(100)
+.sponsors__block_all
+	+mymed(mscr)
+		align-items: flex-start
+.sponsor__image
+	max-width: 100%
+	margin: 0 auto
+	margin-bottom: rem(20)
+.sponsor
+	flex-direction: column
+	display: flex
+	+mymed(mscr)
+		width: 33.33%
+		flex-direction: row
+		flex-wrap: wrap
+		align-items: flex-end
+.special__thanks
+	background-color: #fafafa
+	padding-top: rem(20)
+	padding-bottom: rem(40)
+	+mymed(mscr)
+		padding-top: rem(40)
+		padding-bottom: rem(70)
+	+mymed(lscr)
+		padding-top: rem(70)
+		padding-bottom: rem(100)
+.special__thanks__header
+	color: $black
+	+robotoMedium
+	font-size: rem(20)
+	margin-bottom: rem(10)
+	text-align: center
+	+mymed(mscr)
+		font-size: rem(26)
+		margin-bottom: rem(15)
+	+mymed(lscr)
+		font-size: rem(36)
+		margin-bottom: rem(20)
+.special__thanks__description
+	color: $black
+	+robotoLight
+	font-size: rem(14)
+	margin-bottom: rem(40)
+	text-align: center
+	+mymed(mscr)
+		font-size: rem(16)
+		margin-bottom: rem(50)
+	+mymed(lscr)
+		font-size: rem(20)
+		margin-bottom: rem(90)
+.special__thanks
+	display: flex
+	flex-direction: column
+	align-items: center

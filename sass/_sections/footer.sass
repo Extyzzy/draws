@@ -1,0 +1,121 @@
+.footer
+	background-color: #0f0f0f
+.footer__container
+	padding: rem(20)
+	display: flex
+	flex-direction: column
+	align-items: center
+	padding-bottom: rem(40)
+	+mymed(mscr)
+		flex-direction: row
+		flex-wrap: wrap
+		align-items: flex-start
+		padding-top: rem(50)
+	+mymed(xscr)
+		justify-content: space-between
+		max-width: rem(1590)
+		margin: 0 auto
+		padding-bottom: rem(100)
+.footer__column
+	flex-direction: column
+	align-items: center
+	display: flex
+	+mymed(mscr)
+		width: 25%
+		align-items: flex-start
+		&:last-child
+			width: 75%
+			flex-direction: row
+			.footer__block
+				width: 55%
+				margin-left: 5%
+				&:first-child
+					width: 40%
+					margin-left: 0
+					img
+						width: 100%
+	+mymed(xscr)
+		width: 11.9%
+		&:nth-child(5)
+			width: 9.4%
+		&:last-child
+			width: 14.35%
+			min-width: rem(240)
+			flex-direction: column
+			.footer__block
+				width: 100%
+				&:first-child
+					width: 100%
+
+
+.footer__block
+	margin-bottom: rem(30)
+	+mymed(xscr)
+		&:last-child
+			margin-bottom: 0
+.footer__header
+	text-transform: uppercase
+	font-size: rem(14)
+	color: #ffffff
+	margin-bottom: rem(20)
+	text-align: center
+	+mymed(mscr)
+		text-align: left
+		margin-bottom: rem(30)
+.footer__link
+	color: #ced2d9
+.footer__el
+	margin-bottom: rem(5)
+	&:last-child
+		margin-bottom: 0
+	+mymed(mscr)
+		margin-bottom: rem(10)
+
+.socials
+	display: flex
+	align-items: center
+.social
+	position: relative
+	margin-left: rem(40)
+	&:first-child
+		margin-left: 0
+.social__link, .image-link__link
+	position: absolute
+	left: 0
+	top: 0
+	display: block
+	width: 100%
+	height: 100%
+	z-index: 2
+.image-link
+	position: relative
+	margin-bottom: rem(30)
+.input__search
+	display: flex
+	background-color: #272727
+	overflow: hidden
+	border-radius: rem(5)
+	border: 1px solid #474f59
+	height: rem(44)
+	width: rem(240)
+	margin: 0 auto
+	+mymed(mscr)
+		margin: 0
+.input__search__input
+	background-color: #272727
+	border: none
+	color: #80858d
+	padding-left: rem(15)
+	padding-right: rem(15)
+	flex-grow: 1
+.button__search
+	position: relative
+	display: flex
+	justify-content: center
+	align-items: center
+	width: rem(42)
+	height: rem(42)
+	background-color: #474f59
+	border: none
+	&:before
+		content: url('../img/mail.png')

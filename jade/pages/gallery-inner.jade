@@ -1,0 +1,23 @@
+extends ../main
+
+block styles
+	<!-- build:css css/gallery-inner.min.css -->
+	<!-- bower:css -->	
+	link(rel="stylesheet", href="css/jquery.fancybox.min.css")
+	link(rel="stylesheet", href="css/gallery-inner.css")
+	<!-- endbower -->
+	<!-- endbuild -->
+block content
+	.wrapper
+		include ../header
+		main.main
+			.content
+				include ../gallery-inner-content
+		include ../footer
+block scripts
+	<!-- build:js js/gallery-inner.min.js -->
+	<!-- bower:js -->
+	script(src="js/jquery.fancybox.min.js")
+	script(src="js/gallery-inner.js")
+	<!-- endbower -->
+	<!-- endbuild -->

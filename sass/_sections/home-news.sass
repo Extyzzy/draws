@@ -1,0 +1,103 @@
+.section_home-news
+	padding-bottom: rem(50)
+	position: relative
+	+mymed(mscr)
+		padding-bottom: rem(100)
+	+mymed(lscr)
+		padding-bottom: rem(120)
+	.section__header
+		padding: rem(20)
+		+mymed(mscr)
+			padding: rem(30)
+	.slick-dots
+		bottom: rem(-40)
+		li
+			margin-left: rem(5)
+			margin-right: rem(5)
+			+mymed(mscr)
+				margin-left: rem(20)
+				margin-right: rem(20)
+			button
+				width: rem(10)
+				height: rem(10)
+				+mymed(mscr)
+					width: rem(20)
+					height: rem(20)
+				&:before
+					width: rem(10)
+					height: rem(10)
+					border: 1px solid #d9d9d9
+					+mymed(mscr)
+						width: rem(20)
+						height: rem(20)
+
+		li.slick-active
+			button
+				&:before
+					border: 1px solid $blue
+.news-item
+	+mymed(mscr)
+		margin-left: rem(30)
+		margin-right: rem(30)
+.news-item__image
+	width: 100%
+.news-item__text
+	padding: rem(10)
+.news-item__text__header
+	color: $black
+	+robotoMedium
+	font-size: rem(20)
+	margin-bottom: rem(15)
+.news-item__text__description
+	color: $black
+	+robotoLight
+	font-size: rem(14)
+	margin-bottom: rem(25)
+.button__news
+	background-color: $blue
+	color: #fff
+	border: none
+	border-radius: rem(5)
+	text-transform: uppercase
+	display: flex
+	align-items: center
+	justify-content: center
+	width: rem(180)
+	height: rem(55)
+.slick-arrow
+	background-color: #cccccc
+	+mymed(mscr)
+		width: rem(45)
+		height: rem(100)
+	+mymed(xscr)
+		width: rem(90)
+		height: rem(200)
+.slick-prev
+	left: 0
+	border-top-right-radius: rem(10)
+	border-bottom-right-radius: rem(10)
+	display: flex
+	justify-content: center
+	align-items: center
+	&:before
+		content: url('../img/arrow.svg')
+		width: rem(25)
+		height: rem(60)
+		display: block
+		transform: rotateY(180deg)
+		margin-right: rem(10)
+.slick-next
+	right: 0
+	border-top-left-radius: rem(10)
+	border-bottom-left-radius: rem(10)
+	display: flex
+	justify-content: center
+	align-items: center
+	&:before
+		content: url('../img/arrow.svg')
+		width: rem(20)
+		height: rem(60)
+		display: block
+		margin-left: rem(10)
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus
+	background-color: #cccccc

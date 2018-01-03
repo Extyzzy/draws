@@ -1,0 +1,16 @@
+extends ../main
+
+block styles
+	<!-- build:css css/players.min.css -->
+	<!-- bower:css -->
+	link(rel="stylesheet", href="css/players.css")
+	<!-- endbower -->
+	<!-- endbuild -->
+block content
+	.wrapper
+		include ../header
+		main.main
+			.content
+				include ../players-content
+		include ../footer
+block scripts

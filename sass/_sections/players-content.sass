@@ -1,0 +1,236 @@
+.section_players
+	padding-bottom: rem(20)
+	+mymed(mscr)
+		padding-bottom: rem(40)
+	+mymed(lscr)
+		padding-bottom: rem(100)
+.top, .middle, .players
+	padding: rem(20) rem(10)
+	+mymed(mscr)
+		padding: rem(40)
+.players
+	padding-left: 0
+	padding-right: 0
+	.container
+		padding-left: 0
+		padding-right: 0
+		+mymed(lscr)
+			display: flex
+			justify-content: space-between
+.section__header
+	color: $blue
+	padding: 0
+	margin-bottom: rem(10)
+	text-align: center
+	+mymed(mscr)
+		padding: 0
+		margin-bottom: rem(20)
+.section__description
+	font-size: rem(14)
+	color: $black
+	text-align: center
+	+mymed(mscr)
+		font-size: rem(16)
+	+mymed(lscr)
+		font-size: rem(22)
+.middle
+	background-color: #f7f8fa
+	border-top: 1px solid #e6e6e6
+	border-bottom: 1px solid #e6e6e6
+.rankings
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: center
+.rankings__header 
+	width: 100%
+	text-align: center
+	+robotoMedium
+	color: $black
+	font-size: rem(24)
+	margin-bottom: rem(10)
+	+mymed(mscr)
+		margin-bottom: rem(20)
+	+mymed(lscr)
+		font-size: rem(36)
+.rankings__link
+	width: 100%
+	max-width: rem(320)
+	height: rem(50)
+	background-color: $blue
+	color: #fff
+	text-transform: uppercase
+	font-size: rem(16)
+	display: flex
+	align-items: center
+	justify-content: center
+	margin-bottom: rem(10)
+	border-radius: rem(5)
+	margin-left: rem(10)
+	margin-right: rem(10)
+	transition: 0.4s
+	&:hover
+		background-color: darken($blue, 5%)
+		color: #fff
+	&:active
+		background-color: darken($blue, 10%)
+		transform: scale(0.98)
+.players__title
+	width: 100%
+	text-align: center
+	+robotoMedium
+	color: $black
+	font-size: rem(24)
+	margin-bottom: rem(20)
+	+mymed(mscr)
+		margin-bottom: rem(40)
+	+mymed(lscr)
+		font-size: rem(36)
+.players__header
+	display: flex
+	margin-bottom: rem(10)
+	padding-left: rem(10)
+	padding-right: rem(10)
+.players__header__cell
+	font-size: rem(14)
+	+robotoLight
+	color: $grey
+	margin-left: 2%
+	margin-right: 2%
+	width: 15%
+	text-align: center
+	&:first-child
+		width: 50%
+		margin-left: calc(60px + 4%)
+		text-align: left
+	&:last-child
+		margin-right: 0
+	+mymed(mscr)
+		font-size: rem(16)
+.player
+	display: flex
+	border: 1px solid transparent
+	border-top: 1px solid #e6e6e6
+	border-collapse: collapse
+	padding: rem(10)
+	align-items: center
+	position: relative
+	transition: 0.3s
+	&:nth-child(odd)
+		background-color: #f7f8fa
+	&:last-child
+		border-bottom: 1px solid #e6e6e6
+	+mymed(lscr)
+		padding-left: rem(20)
+		padding-right: rem(20)
+.player__cell
+	margin-left: 2%
+	margin-right: 2%
+	width: 15%
+	display: flex
+	justify-content: center
+	position: relative
+	&:first-child
+		max-width: rem(60)
+		margin-left: 0
+		max-height: rem(60)
+		width: 14vw
+		height: 10.63vw
+		overflow: hidden
+		background-color: #cccccc
+		border-radius: rem(5)
+		display: flex
+		align-items: center
+		justify-content: center
+		&:before
+			content: ''
+			position: absolute
+			background-repeat: no-repeat
+			background-position: center
+			width: 80%
+			height: 80%
+			background-size: contain
+	&:nth-child(2)
+		width: 50%
+		flex-direction: column
+		align-items: flex-start
+		justify-content: flex-start
+	&:nth-child(5)
+		margin-right: 0
+.player__image
+	width: 100%
+	max-width: rem(60)
+	margin: 0 auto
+	display: flex
+	align-self: center
+	position: relative
+.player__name
+	+robotoMedium
+	font-size: rem(16)
+	color: $black
+	+mymed(mscr)
+		font-size: rem(20)
+.player__country
+	color: $grey
+	+robotoLight
+	text-transform: uppercase
+	font-size: rem(14)
+
+.player__draw
+	width: rem(25)
+	height: rem(25)
+	border-radius: 50%
+	display: flex
+	justify-content: center
+	align-items: center
+	color: #fff
+	font-size: rem(16)
+	+robotoMedium
+	+mymed(mscr)
+		width: rem(30)
+		height: rem(30)
+.players__men
+	margin-bottom: rem(40)
+	+mymed(lscr)
+		width: 47.5%
+		margin-bottom: 0
+	.player
+		&:hover
+			border: 1px solid $blue
+	.player__draw
+		background-color: $blue
+	.player__cell
+		&:before
+			background-image: url('../img/man.png')
+.players__women
+	+mymed(lscr)
+		width: 47.5%
+	.player
+		&:hover
+			border: 1px solid #da56c3
+	.player__draw
+		background-color: #da56c3
+	.player__cell
+		&:before
+			background-image: url('../img/woman.png')
+			right: 5%
+.player__seed
+	+robotoMedium
+	font-size: rem(16)
+	color: $black
+	text-align: center
+	+mymed(mscr)
+		font-size: rem(20)
+.player__ranking
+	+robotoMedium
+	font-size: rem(16)
+	color: $black
+	text-align: center
+	+mymed(mscr)
+		font-size: rem(20)
+.player__link
+	position: absolute
+	width: 100%
+	height: 100%
+	left: 0
+	top: 0
