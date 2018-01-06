@@ -1,0 +1,190 @@
+.title
+  margin: 100px 0
+  h1
+    color: $grey
+    font-size: 45px
+    margin-bottom: 5px
+
+.info_content
+  +roboto
+  color: #80858d
+  .media
+    border-bottom: 1px solid #e6e6e6
+    border-top: 1px solid #e6e6e6
+    padding: 5px 0
+    background-color: #f0f1f2
+    .left
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-around
+      width: 375px
+      padding-top: 10px
+    .share
+      display: flex
+    .share a
+      text-decoration: none
+      color: #80858d
+    .share i
+      font-size: 23px
+      margin-top: 5px
+      margin-right: 10px
+      cursor: pointer
+    .share span
+      margin: 10px
+    .container
+       display: flex
+       justify-content: space-between
+       flex-wrap: wrap
+
+  .content_text
+     p
+        +openSans
+        margin: 50px 0
+        line-height: 1.8em
+     .results p
+        font-weight: 700
+        color: #3f4652
+     .image_text
+        display: flex
+        justify-content: space-between
+        .img
+           max-width: 65%
+           height: 100%
+           p
+             text-align: right
+             font-style: italic
+             margin: 0
+           img
+             width: 100%
+             height: 100%
+             object-fit: cover
+        .text
+         width: 30%
+
+@media screen and (max-width: 1200px)
+  .info_content
+    .content_text
+      .image_text
+        display: block
+        .img
+          max-width: 100% !important
+        .text
+          width: 100% !important
+
+.comment
+  background-color: #f8f8f8
+  padding-bottom: 200px
+  .container_commets
+    width: 960px
+    margin: 0 auto
+    .reply
+      color: $grey
+      font-size: 26px
+      font-weight: 600
+      padding: 85px 0
+    textarea
+      +openSans
+      resize: none
+      width: 100%
+      height: 130px
+      padding: 15px
+      border-radius: 8px
+    form
+      display: flex
+      justify-content: space-between
+    input
+      width: 31%
+      height: 60px
+      padding: 12px 20px
+      margin: 8px 0
+      display: inline-block
+      border: 1px solid #999da2
+      border-radius: 8px
+      box-sizing: border-box
+    input:focus, textarea:focus
+      border: 1px solid #3498db
+      transition: 0.25s
+    .button
+      text-align: right
+      margin-top: 30px
+      button
+        padding: 20px 40px
+        color: white
+        background-color: #009ee2
+        text-transform: uppercase
+        border-radius: 8px
+        font-weight: 600
+        border: none
+        transition: easy 0.5s
+        box-sizing: border-box;
+      button:hover
+        transition: easy all 0.5s
+        background-color: #1e8fbf
+      button:focus
+        border-top: 1px solid #e9e9e9
+    .comment_person
+      margin-top: 30px
+      padding-top: 30px
+      border-top: 1px solid #e9e9e9
+      display: flex
+      justify-content: space-between
+      color: $grey
+      .img
+        img
+          width: 75px
+          height: 75px
+          border-radius: 50%
+          object-fit: cover
+      .info_person
+        padding-left: 30px
+        .top
+          display: flex
+          justify-content: space-between
+          margin-bottom: 10px
+          .name
+            font-weight: 600
+            font-size: 20px
+          .day
+            font-weight: 300
+            font-size: 15px
+        .bottom p
+          font-family: 'Open Sans', sans-serif
+          font-weight: 500
+          line-height: 1.5em
+.fa
+  margin-right: 5px
+
+@media screen and (max-width: 960px)
+  .container_commets
+    width: 100% !important
+    padding: 0 20px
+
+@media screen and (max-width: 800px)
+  .comment .container_commets .reply
+    padding: 35px 0
+  .title
+    margin: 50px 0
+  .container
+    padding: 0 20px
+  .title h1
+    font-size: 32px
+
+@media screen and (max-width: 700px)
+  .comment .container_commets form
+    flex-direction: column
+  .comment .container_commets input
+    width: 100%
+
+@media screen and (max-width: 600px)
+  .info_content .media .left
+    display: block
+    width: 100%
+    text-align: center
+  .title h1
+    font-size: 24px
+  .info_content .media .share
+    justify-content: center
+    width: 100%
+  .person
+    padding-top: 10px
+

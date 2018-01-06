@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ea06eb0-8a52-47c3-b152-5b61fa93310b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/jade/pages/toc-news-topic.jade" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sass/_sections/news-topic.sass" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sass/pages/news-topic.sass" />
+      <change beforePath="$PROJECT_DIR$/app/css/draws.css" afterPath="$PROJECT_DIR$/app/css/draws.css" />
+      <change beforePath="$PROJECT_DIR$/app/css/gallery-inner.css" afterPath="$PROJECT_DIR$/app/css/gallery-inner.css" />
+      <change beforePath="$PROJECT_DIR$/app/css/gallery.css" afterPath="$PROJECT_DIR$/app/css/gallery.css" />
+      <change beforePath="$PROJECT_DIR$/app/css/home.css" afterPath="$PROJECT_DIR$/app/css/home.css" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/app/css/news.css" afterPath="$PROJECT_DIR$/app/css/news.css" />
+      <change beforePath="$PROJECT_DIR$/app/css/players.css" afterPath="$PROJECT_DIR$/app/css/players.css" />
+      <change beforePath="$PROJECT_DIR$/app/css/schedule.css" afterPath="$PROJECT_DIR$/app/css/schedule.css" />
+      <change beforePath="$PROJECT_DIR$/app/css/sponsors.css" afterPath="$PROJECT_DIR$/app/css/sponsors.css" />
+      <change beforePath="$PROJECT_DIR$/app/draws-men.html" afterPath="$PROJECT_DIR$/app/draws-men.html" />
+      <change beforePath="$PROJECT_DIR$/app/draws-women.html" afterPath="$PROJECT_DIR$/app/draws-women.html" />
+      <change beforePath="$PROJECT_DIR$/app/gallery-inner.html" afterPath="$PROJECT_DIR$/app/gallery-inner.html" />
+      <change beforePath="$PROJECT_DIR$/app/gallery.html" afterPath="$PROJECT_DIR$/app/gallery.html" />
+      <change beforePath="$PROJECT_DIR$/app/home.html" afterPath="$PROJECT_DIR$/app/home.html" />
+      <change beforePath="$PROJECT_DIR$/app/news.html" afterPath="$PROJECT_DIR$/app/news.html" />
+      <change beforePath="$PROJECT_DIR$/app/players.html" afterPath="$PROJECT_DIR$/app/players.html" />
+      <change beforePath="$PROJECT_DIR$/app/schedule.html" afterPath="$PROJECT_DIR$/app/schedule.html" />
+      <change beforePath="$PROJECT_DIR$/app/sponsors.html" afterPath="$PROJECT_DIR$/app/sponsors.html" />
+      <change beforePath="$PROJECT_DIR$/dist/css/gallery-inner.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/css/gallery.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/css/home.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/dist/css/news.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/css/players.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/css/schedule.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/css/sponsors.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/css/vendor.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery-inner.html" afterPath="$PROJECT_DIR$/dist/gallery-inner.html" />
+      <change beforePath="$PROJECT_DIR$/dist/gallery.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/home.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/greg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/home-cta.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/home-firstscreen.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/mail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/man.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/news.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/player.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/psaws.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/psawt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/socials/fb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/socials/in.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/socials/tw.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/Comcast.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/HSS-big.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/HSS.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/JPMorgan-huge.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/JPMorgan.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/J_P_Morgan-blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/LexingtonPartners.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/SLG-big.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/SLG.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/bbbs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/brandix.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/comcast-big.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/dunlop-ball.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/dunlop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/gnfh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/leman.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/lexington-huge.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/lexington.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/nysquash.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/palm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/psa.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/squash.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/squashengine.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/squashtv.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/squashtv.psb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/ssq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/stella.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/talmage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/ussquashl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/wco.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sponsors/wsf.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/squash-footer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/tickets.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/woman.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zoom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/js/gallery-inner.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/js/homepage.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/js/vendor.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/news.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/players.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/schedule.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/sponsors.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jade/main.jade" afterPath="$PROJECT_DIR$/jade/main.jade" />
+      <change beforePath="$PROJECT_DIR$/sass/_common/containers.sass" afterPath="$PROJECT_DIR$/sass/_common/containers.sass" />
+      <change beforePath="$PROJECT_DIR$/sass/_common/fonts.sass" afterPath="$PROJECT_DIR$/sass/_common/fonts.sass" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.6524444">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package-lock.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="toc-news-topic.jade" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jade/pages/toc-news-topic.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="458">
+                  <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jade/main.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="263">
+                  <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="draws-men.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jade/pages/draws-men.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="74" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sponsors.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jade/pages/sponsors.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="schedule.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jade/pages/schedule.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="news-topic.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/pages/news-topic.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="69">
+                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="colors.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/_common/colors.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="46">
+                  <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="news-topic.sass" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sass/_sections/news-topic.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fonts.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/_common/fonts.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="414">
+                  <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.wrapper</find>
+      <find>roboto</find>
+      <find>@</find>
+      <find>img</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/sass/pages/news-topic.sass" />
+        <option value="$PROJECT_DIR$/sass/_common/containers.sass" />
+        <option value="$PROJECT_DIR$/sass/_common/colors.sass" />
+        <option value="$PROJECT_DIR$/sass/_common/fonts.sass" />
+        <option value="$PROJECT_DIR$/jade/main.jade" />
+        <option value="$PROJECT_DIR$/jade/pages/toc-news-topic.jade" />
+        <option value="$PROJECT_DIR$/sass/_sections/news-topic.sass" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="50" />
+    <option name="y" value="128" />
+    <option name="width" value="1779" />
+    <option name="height" value="725" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="draws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="draws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="draws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="draws" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="draws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="draws" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="draws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="draws" type="462c0819:PsiDirectoryNode" />
+              <item name="jade" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ea06eb0-8a52-47c3-b152-5b61fa93310b" name="Default" comment="" />
+      <created>1515231726682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515231726682</updated>
+      <workItem from="1515231728353" duration="20498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20498000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17642753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ToC Draws Men.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToC News Topic (with Comments).psd">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_common/general.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/gallery-inner.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/home.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/sponsors.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_sections/schedule-cta.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_sections/home-news.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/draws.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/toc-news-topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/gallery.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_sections/news-content.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1642">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/pages/home.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/news.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/pages/schedule.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/pages/sponsors.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_common/colors.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/news-topic.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_common/mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_common/fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/pages/draws-men.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/news-topic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/draws.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_sections/draws-content.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_common/grid.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_common/containers.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/main.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/pages/toc-news-topic.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_sections/news-topic.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
